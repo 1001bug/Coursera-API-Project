@@ -63,7 +63,7 @@ function fetchDataWithCancellation(url) {
 function fetch_city_weather(lat, lon){
 
 
-const apiUrl = `http://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civillight&output=json`;
+const apiUrl = `https://www.7timer.info/bin/api.pl?lon=${lon}&lat=${lat}&product=civillight&output=json`;
 
 fetchDataWithCancellation(apiUrl)
   .then(data => {
